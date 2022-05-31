@@ -63,7 +63,8 @@
 	> todo
 11. How can you accurately unwrap and texture? (I know, it can be done after watching some tutorials, but if you feel like it then answer, if you want.)
 	> Unwrapping is both the simplest and the most time-consuming part of modeling.
-	> Let me explain on this example. We have cube with 2x2x2 texel sides:
+	>
+	>  Let me explain on this example. We have cube with 2x2x2 texel sides:
 	> 
 	> ![Unwrap 1](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap1.jpg?raw=true)
 	> 
@@ -72,6 +73,7 @@
 	> ![Unwrap 2](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap2.jpg?raw=true)
 	> 
 	> After selection go to [UV] -> [Mark Seam] to notify Blender about our cut edges.
+	> 
 	> Then create new _Material_ for your object and now we can create new texture and assign it on our _Material_
 	>
 	> ![Unwrap 3](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap4.jpg?raw=true)
@@ -89,57 +91,33 @@
 	>![Unwrap 6](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap6.jpg?raw=true)
 	> 
 	> And **Woooah!** Your cube is **UNWRAPPED** \\(ᵔᵕᵔ)/
-	> ~~But wait, it has wrong scale!~~
+	>
+	>  ~~But wait, it has wrong scale!~~
 	>
 	>![Unwrap 7](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap7.jpg?raw=true)
 	>
 	> To fix that i've use _TexTools_ Blender addon. It allow you to specify **Texel size** (Pixels per 1 unit ratio). I'm set **1.0** here, because on 3D scene settings i've set _Scale_ value as **1.0** (by default 1 Blender unit = 1m). 
-	> **NOTE:** If you modeling with common Minecraft scale (_Scale_ value set as 0.0625) then you should use Texel size = **16.0**, coz 0.0625 * 16 = 1 !
-	> After set up correct **Texel size** you can select all UV islands click _Apply_ button:
+	>
+	>  **NOTE:** If you modeling with common Minecraft scale (_Scale_ value set as 0.0625) then you should use Texel size = **16.0**, coz 0.0625 * 16 = 1 !
+	>
+	>  After set up correct **Texel size** you can select all UV islands click _Apply_ button:
 	> 
 	> ![Unwrap 8](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap8.jpg?raw=true)
 	>
 	> Now it looks perfect! **UwU**
-	> To move your new UV island by pixels use _Snap to Pixels_ UV option:
+	>
+	>  To move your new UV island by pixels use _Snap to Pixels_ UV option:
 	>
 	>![Unwrap 9](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap9.jpg?raw=true)
 	>
 	> ***Congratulations!!!*** 
-	> Now you learn how to unwrap texel-style objects! 
-	> ⠀⠘⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡜⠀⠀⠀ ⠀⠀⠀
-	>   ⠑⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⡔⠁⠀⠀⠀ ⠀⠀⠀⠀
-	>    ⠈⠢⢄⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⣀⠴⠊⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀⠀
-	>      ⠀⢸⠀⠀⠀⢀⣀⣀⣀⣀⣀⡀⠤⠄⠒⠈⠀⠀⠀⠀⠀⠀⠀⠀ ⠀⠀⠀⠀⠀
-	>     ⠀⠀⠘⣀⠄⠊⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀ ⠀
-	>⣿⣿⣿⣿⣿⣿⣿⣿⡿⠿⠛⠛⠛⠋⠉⠈⠉⠉⠉⠉⠛⠻⢿⣿⣿⣿⣿⣿⣿⣿ 
-	>⣿⣿⣿⣿⣿⡿⠋⠁⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ⠀⠉⠛⢿⣿⣿⣿⣿ 
-	>⣿⣿⣿⣿⡏⣀⠀⠀⠀⠀⠀⠀⠀⣀⣤⣤⣤⣄⡀⠀⠀⠀⠀⠀⠀   ⠀⠙⢿⣿⣿ 
-	>⣿⣿⣿⢏⣴⣿⣷⠀⠀⠀⠀⠀⢾⣿⣿⣿⣿⣿⣿⡆⠀⠀⠀⠀⠀⠀   ⠀⠈⣿⣿ 
-	>⣿⣿⣟⣾⣿⡟⠁⠀⠀⠀⠀⠀⢀⣾⣿⣿⣿⣿⣿⣷⢢⠀⠀⠀⠀   ⠀⠀⠀⢸⣿
-	>⣿⣿⣿⣿⣟⠀⡴⠄⠀⠀⠀⠀⠀⠀⠙⠻⣿⣿⣿⣿⣷⣄⠀⠀⠀⠀⠀⠀   ⠀⣿ 
-	>⣿⣿⣿⠟⠻⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠶⢴⣿⣿⣿⣿⣿⣧⠀⠀⠀⠀⠀    ⠀⣿ 
-	>⣿⣁⡀⠀⠀⢰⢠⣦⠀⠀⠀⠀⠀⠀⠀⠀⢀⣼⣿⣿⣿⣿⣿⡄⠀   ⣴⣶⣿⡄⣿
-	>⣿⡋⠀⠀⠀⠎⢸⣿⡆⠀⠀⠀⠀⠀⠀⣴⣿⣿⣿⣿⣿⣿⣿⠗   ⢘⣿⣟⠛⠿⣼ 
-	>⣿⣿⠋⢀⡌⢰⣿⡿⢿⡀⠀⠀⠀⠀⠀⠙⠿⣿⣿⣿⣿⣿⡇⠀  ⢸⣿⣿⣧⢀⣼ 
-	>⣿⣿⣷⢻⠄⠘⠛⠋⠛⠃⠀⠀⠀⠀⠀⢿⣧⠈⠉⠙⠛⠋⠀  ⠀⠀⣿⣿⣿⣿⣿ 
-	>⣿⣿⣧⠀⠈⢸⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠟⠀⠀⠀⠀⢀⢃    ⠀⠀⢸⣿⣿⣿⣿ 
-	>⣿⣿⡿⠀⠴⢗⣠⣤⣴⡶⠶⠖⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ⣀⡸⠀⣿⣿⣿⣿
-	>⣿⣿⣿⡀⢠⣾⣿⠏⠀⠠⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ⠀⠛⠉⠀⣿⣿⣿⣿ 
-	>⣿⣿⣿⣧⠈⢹⡇⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀    ⠀⠀⠀⣰⣿⣿⣿⣿
-	>⣿⣿⣿⣿⡄⠈⠃⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀⠀   ⠀⠀⢀⣠⣴⣾⣿⣿⣿⣿⣿ 
-	>⣿⣿⣿⣿⣧⡀⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⠀⠀⠀⢀⣠⣾⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
-	>⣿⣿⣿⣿⣷⠀⠀⠀⠀⠀⠀⠀⠀⠀  ⠀⠀⢀⣴⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
-	>⣿⣿⣿⣿⣿⣦⣄⣀⣀⣀⣀⠀⠀⠀ ⠀⠘⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
-	>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣷⡄⠀⠀ ⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
-	>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣧⠀⠀ ⠀⠙⣿⣿⡟⢻⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
-	>⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⣿⠇⠀⠁⠀ ⠀⠹⣿⠃⠀⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
-	>⣿⣿⣿⣿⣿⣿⣿⣿⡿⠛⣿⣿⠀⠀⠀⠀⠀⠀  ⠀⠀⢐⣿⣿⣿⣿⣿⣿⣿⣿⣿ 
-	>⣿⣿⣿⣿⠿⠛⠉⠉⠁⠀⢻⣿⡇⠀⠀⠀⠀⠀  ⠀⢀⠈⣿⣿⡿⠉⠛⠛⠛⠉⠉
-	>⣿⡿⠋⠁⠀⠀⢀⣀⣠⡴⣸⣿⣇⡄⠀⠀⠀⠀⢀⡿⠄⠙⠛⠀⣀⣠⣤⣤⠄⠀
+	>
+	>  Now you learn how to unwrap texel-style objects! 
 	>
 	>![Unwrap 10](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap10.jpg?raw=true)
 	> 
 	> However, the time-consuming is that it is a long monotonous process that requires more attention. It depends on how smoothly the textures will lie and how they will look in the game.
+	> ![Unwrap 11](https://preview.redd.it/lr5kdzqr0ve31.jpg?auto=webp&s=ccc7304f5775de75c893cb1b7cfe6384e08ee5b6)
 12. What are the Texel guidelines?
 	> - No free movement / scale objects
 	> - Move / Extrude / etc objects only on **Increment** value
