@@ -84,7 +84,9 @@
 	>
 	> ![Unwrap 4](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap5.jpg?raw=true)
 	>
-	> Then, when you are ready to unwrap, select entire object in edit mode and go to [UV] -> [Unwrap] (ye, it's really so simple `¯\_(ツ)_/¯`):
+	> Then, when you are ready to unwrap, select entire object in edit mode and go to [UV] -> [Unwrap]
+	> 
+	> (ye, it's really so simple `¯\_(ツ)_/¯`):
 	>
 	> ![Unwrap 5](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap3.jpg?raw=true)
 	>
