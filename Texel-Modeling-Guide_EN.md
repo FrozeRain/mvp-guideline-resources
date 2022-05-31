@@ -60,7 +60,7 @@
 9. Can you stick to a certain accurate grid when modelling? How?
 	> todo
 10. When sex?
-	> Call me bro, will duscuss that `♥‿♥`
+	> Call me bro, will discuss that `♥‿♥`
 11. What do you absolutely need to know before starting to model in Texel? 
 	> todo
 12. How can you accurately unwrap and texture? (I know, it can be done after watching some tutorials, but if you feel like it then answer, if you want.)
