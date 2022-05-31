@@ -64,10 +64,29 @@
 11. How can you accurately unwrap and texture? (I know, it can be done after watching some tutorials, but if you feel like it then answer, if you want.)
 	> todo
 12. What are the Texel guidelines?
-	> todo
+	> - No free movement / scale objects
+	> - Move / Extrude / etc objects only on **Increment** value
+	>   - For uncommon _Move_ cases:
+	>     + 0.5 texel (1/2 texel);
+	>     + 0.25 texel (1/4 texel);
+	>   - For uncommon _Extrude_ cases:
+	>     + 0.5 texel (1/2 texel);
+	>     + 0.1 texel (1/10 texel);
+	> - Rotate existing texel objects as you want.
+	> - Think in advance how each texel of the mesh will unwrap on each pixel of the texture.
+	> - Try to use the most common shapes such as:
+	>   - Plane
+	>   - Cube / Parallelepiped
+	>   - Triangle
+	>   - Trapezoid
+	> - Use your imagination within limits. =D
 13. What should I avoid when modelling in Texel?
 	> todo
 14. How can you make accurate wires?
-	> todo
+	> To make wires or any flexible parts you could use Blender's _Bezier_ object as modifier. Just place _Bezier_ as you need and apply to object to be bent. [See how do it!](https://www.youtube.com/watch?v=oHkzyH9dpv4&ab_channel=GamemakerGameProgrammingCourse)
+	> 
+	> ![Bezier](https://raw.githubusercontent.com/FrozeRain/mvp-guideline-resources/main/bezier.jpg)
+	> 
+	> **NOTE: Your object must be pre-divided into 1x1x1 texel polygons!**
 15. Do these Texel rules apply to RoW's Texel rules?
-	> todo
+	> Of course, RoW's Texel rules applicable to the MVP, just as the MVP rules applicable to the ROW. But in MVP we trying to avoid _voxel-like_ parts, except wheels.
