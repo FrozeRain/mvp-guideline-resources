@@ -104,7 +104,7 @@
 	>
 	>  **NOTE:** If you modeling with common Minecraft scale (_Scale_ value set as 0.0625) then you should use Texel size = **16.0**, coz 0.0625 * 16 = 1 !
 	>
-	>  After set up correct **Texel size** you can select all UV islands click _Apply_ button:
+	>  After set up correct **Texel size** you can select all UV islands and click _Apply_ button:
 	> 
 	> ![Unwrap 8](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap8.jpg?raw=true)
 	>
