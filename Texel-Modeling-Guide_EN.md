@@ -59,16 +59,18 @@
 	> todo
 9. Can you stick to a certain accurate grid when modelling? How?
 	> todo
-10. What do you absolutely need to know before starting to model in Texel? 
+10. When sex?
+	> Call me bro, will duscuss that `♥‿♥`
+11. What do you absolutely need to know before starting to model in Texel? 
 	> todo
-11. How can you accurately unwrap and texture? (I know, it can be done after watching some tutorials, but if you feel like it then answer, if you want.)
+12. How can you accurately unwrap and texture? (I know, it can be done after watching some tutorials, but if you feel like it then answer, if you want.)
 	> Unwrapping is both the simplest and the most time-consuming part of modeling.
 	>
 	>  Let me explain on this example. We have cube with 2x2x2 texel sides:
 	> 
 	> ![Unwrap 1](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap1.jpg?raw=true)
 	> 
-	> First, we need to select the edges along which we will cut this cube. (I guess youtube very help with it ( ͡° ͜ʖ ͡°) )
+	> First, we need to select the edges along which we will cut this cube. (I guess youtube very help with it `( ͡° ͜ʖ ͡°)` )
 	> 
 	> ![Unwrap 2](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap2.jpg?raw=true)
 	> 
@@ -82,7 +84,7 @@
 	>
 	> ![Unwrap 4](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap5.jpg?raw=true)
 	>
-	> Then, when you are ready to unwrap, select entire object in edit mode and go to [UV] -> [Unwrap] (ye, it's really so simple ¯\\\_(ツ)_/¯):
+	> Then, when you are ready to unwrap, select entire object in edit mode and go to [UV] -> [Unwrap] (ye, it's really so simple `¯\_(ツ)_/¯`):
 	>
 	> ![Unwrap 5](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap3.jpg?raw=true)
 	>
@@ -90,7 +92,7 @@
 	>
 	>![Unwrap 6](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap6.jpg?raw=true)
 	> 
-	> And **Woooah!** Your cube is **UNWRAPPED** \\(ᵔᵕᵔ)/
+	> And **Woooah!** Your cube is **UNWRAPPED** `\(ᵔᵕᵔ)/`
 	>
 	>  ~~But wait, it has wrong scale!~~
 	>
@@ -117,8 +119,9 @@
 	>![Unwrap 10](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap10.jpg?raw=true)
 	> 
 	> However, the time-consuming is that it is a long monotonous process that requires more attention. It depends on how smoothly the textures will lie and how they will look in the game.
-	> ![Unwrap 11](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/chad.jpg?raw=true)
-12. What are the Texel guidelines?
+	>
+	>  ![Unwrap 11](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/chad.jpg?raw=true)
+13. What are the Texel guidelines?
 	> - No free movement / scale objects
 	> - Move / Extrude / etc objects only on **Increment** value
 	>   - For uncommon _Move_ cases:
@@ -135,13 +138,15 @@
 	>   - Triangle
 	>   - Trapezoid
 	> - Use your imagination within limits. =D
-13. What should I avoid when modelling in Texel?
+14. What should I avoid when modelling in Texel?
 	> todo
-14. How can you make accurate wires?
+15. How can you make accurate wires?
 	> To make wires or any flexible parts you could use Blender's _Bezier_ object as modifier. Just place _Bezier_ as you need and apply to object to be bent. [See how do it!](https://www.youtube.com/watch?v=oHkzyH9dpv4&ab_channel=GamemakerGameProgrammingCourse)
 	> 
 	> ![Bezier](https://raw.githubusercontent.com/FrozeRain/mvp-guideline-resources/main/bezier.jpg)
 	> 
 	> **NOTE: Your object must be pre-divided into 1x1x1 texel polygons!**
-15. Do these Texel rules apply to RoW's Texel rules?
+16. Do these Texel rules apply to RoW's Texel rules?
 	> Of course, RoW's Texel rules applicable to the MVP, just as the MVP rules applicable to the ROW. But in MVP we trying to avoid _voxel-like_ parts, except wheels.
+17. Can we go out for a drink?
+	> I'm wanna every evening!
