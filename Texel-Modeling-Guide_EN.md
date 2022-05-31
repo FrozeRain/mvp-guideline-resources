@@ -117,7 +117,7 @@
 	>![Unwrap 10](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/unwrap10.jpg?raw=true)
 	> 
 	> However, the time-consuming is that it is a long monotonous process that requires more attention. It depends on how smoothly the textures will lie and how they will look in the game.
-	> ![Unwrap 11](https://preview.redd.it/lr5kdzqr0ve31.jpg?auto=webp&s=ccc7304f5775de75c893cb1b7cfe6384e08ee5b6)
+	> ![Unwrap 11](https://github.com/FrozeRain/mvp-guideline-resources/blob/main/chad.jpg?raw=true)
 12. What are the Texel guidelines?
 	> - No free movement / scale objects
 	> - Move / Extrude / etc objects only on **Increment** value
