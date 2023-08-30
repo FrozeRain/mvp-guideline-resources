@@ -5,7 +5,7 @@
 > 2. [Что такое Тексель?](texel-modeling-ru/what_is_texel.md)
 > 3. [Принципы моделига в текселе](texel-modeling-ru/texel_basics.md)
 > 4. [Видеоуроки и материалы](texel-modeling-ru/basic_tutorials.md)
-> 5. Первые шаги
+> 5. [Первые шаги](texel-modeling-ru/first_steps.md)
 >    - Настройка сцены
 >    - Инструменты и примитивы
 >    - Первая модель
@@ -30,5 +30,3 @@
 >    - Хоткеи
 >    - Плагины
 >      - TexTools
-
-![Contribution guidelines for this project](images/snap.jpg)
