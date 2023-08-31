@@ -12,5 +12,5 @@
 >    - Запечка. Ambient Occlusion
 >    - Моделирование по чертежам. Настройка
 >    - [Хоткеи](hotkeys.md)
->    - Плагины
->      - TexTools
+>    - [Плагины](plugins.md)
+>      - [TexTools](textools.md)
